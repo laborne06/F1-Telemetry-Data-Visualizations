@@ -18,4 +18,4 @@
 
 ![Piastri vs. Verstappen Track Positions](images/pia-ver-positions.png)
 
-<p>**note that the particular session object for this visualization uses telemetry from the 2024 Monaco Grand Prix. This track is notorious for being difficult to overtake in, so neither of the drivers' positions changed during the race.</p>
+<p>**note that the particular session object for the above visualization uses telemetry from the 2024 Monaco Grand Prix. This track is notorious for being difficult to overtake in, so neither of the drivers' positions changed during the race.</p>
