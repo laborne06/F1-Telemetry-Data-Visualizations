@@ -1,3 +1,16 @@
+#%%
+import fastf1
+import plotly.express as px
+import plotly.io as pio
+import plotly.graph_objects as go
+import pandas as pd
+import math
+pio.renderers.default = "notebook"
+fastf1.Cache.enable_cache("cache")
+#%%
+session = fastf1.get_session(2024, "Monaco", "R")
+session.load()
+
 # %%
 # Which driver had the fastest lap for the 2024 Monaco GP?
 fastest_lap_info = session.laps.pick_fastest()
