@@ -39,7 +39,7 @@ driver_compounds = session.laps[['Driver', 'Compound']]
 print(driver_compounds)
 
 # %%
-Display PIA laps by stint in pie chart
+#Display PIA laps by stint in pie chart
 pia_stint_lengths_df = pia_stint_lengths.to_frame()
 df = pia_stint_lengths_df
 fig = px.pie(df, 
