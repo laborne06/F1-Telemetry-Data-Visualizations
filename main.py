@@ -215,5 +215,3 @@ def two_driver_line_chart(session, first_driver, second_driver, first_data_type,
 
 #%%
 two_driver_line_chart(session, 'PIA', 'VER', 'LapNumber','Position')
-
-# %%
